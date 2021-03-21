@@ -1,8 +1,6 @@
 # Chapter 1
 
-[TOC]
-
-## Signal Amplification
+## 1-1 Signal Amplification
 
 <div align = center><img height = 200 src = "../assets/ch1-1.png"></div>
 
@@ -47,7 +45,7 @@ Since the signal received by antenna is too weak, which is usually in $\mu V$ ra
 
 The processing could be much easier if the signal magnitude is larger.
 
-## Amplifiers
+## 1-2 Amplifiers
 
 <div align = center><img height = 150 src = "../assets/ch1-7.png"></div>
 

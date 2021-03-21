@@ -1,7 +1,5 @@
 # Chapter 2
 
-[TOC]
-
 ## 2-1 Ideal Op Amp
 
 ### Models of Ideal Op Amp
