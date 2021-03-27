@@ -258,7 +258,7 @@ Now we can analyses the closed loop amplifier, taking into account the input bia
 <div align = center><img height = 300 src = "../assets/ch2-12.png"></div>
 
 $$
-V_O = -I_{B2}R_3+R_2(I_{B2}-I_{B2}R_3/R_1)
+V_O = -(R_3+R_3/R_1)I_{B2}+R_2I_{B1}
 $$
 
 Consider the case $I_{B1}=I_{B2}=I_B$, which results in
