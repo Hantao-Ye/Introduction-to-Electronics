@@ -111,13 +111,13 @@ $$
 And we have $i_1=i_2$
 
 $$
-v_x = i_2R_2 = i_1 R_2 = \frac{R_2}{R_1}v_I
+v_x = -i_2R_2 = -i_1 R_2 = -\frac{R_2}{R_1}v_I
 $$
 
 Therefore $i_3$ could be determined as
 
 $$
-i_3 = \frac{v_x}{R_3} = \frac{R_2}{R_1}\cdot\frac{v_I}{R_3}
+i_3 = \frac{v_x}{R_3} = -\frac{R_2}{R_1}\cdot\frac{v_I}{R_3}
 $$
 
 The output voltage could be calculated 
@@ -125,10 +125,10 @@ The output voltage could be calculated
 $$
 \begin{aligned}
     v_o &= v_x+i_4R_4\\[2ex] 
-        &= \frac{R_2}{R_1}v_I+(i_2+i_3)R_4\\[2ex]
-        &= \frac{R_2}{R_1}v_I+(i_1+i_3)R_4\\[2ex]
-        &= \frac{R_2}{R_1}v_I+(\frac{1}{R_1}+\frac{R_2}{R_1}\cdot\frac{1}{R_3})v_I R_4\\[2ex]
-        &= (\frac{R_2}{R_1}+\frac{R_4}{R_1}+\frac{R_2}{R_1}\frac{R_4}{R_3})v_I\\[2ex]
+        &= -\frac{R_2}{R_1}v_I-(i_2+i_3)R_4\\[2ex]
+        &= -\frac{R_2}{R_1}v_I-(i_1+i_3)R_4\\[2ex]
+        &= -\frac{R_2}{R_1}v_I-(\frac{1}{R_1}+\frac{R_2}{R_1}\cdot\frac{1}{R_3})v_I R_4\\[2ex]
+        &= -(\frac{R_2}{R_1}+\frac{R_4}{R_1}+\frac{R_2}{R_1}\frac{R_4}{R_3})v_I\\[2ex]
 \end{aligned}
 $$
 
@@ -211,6 +211,36 @@ $$
 \end{aligned}
 $$
 
+Since we've chosen the resistor ratio, the gain for the common-mode is 0
+
+But any mismatch in the resistance ratio could cause $A_{cm}$ nonzero, hence, high input resistance is required for a difference amplifier, which is called **differential input resistance** $R_{id}$
+
+We assume that 
+
+$$
+R_3 = R_1\qquad R_4 = R_2
+$$
+
+And the definition of the **differential input resistance** is
+
+$$
+R_{Id} = \frac{v_{Id}}{i_I}
+$$
+
+<div align = center><img height = 300 src = "../assets/ch2-14.jpg"></div>
+
+Since the two terminals shares the same voltage, the loop seems to be a short circuit.
+
+$$
+v_{Id} = i_IR_1+0+i_IR_1
+$$
+
+Thus
+
+$$
+R_{Id} = 2R_1
+$$
+
 ## 2-5 DC Imperfections
 
 ### Offset Voltage
@@ -255,10 +285,10 @@ $$
 
 Now we can analyses the closed loop amplifier, taking into account the input bias currents
 
-<div align = center><img height = 300 src = "../assets/ch2-12.png"></div>
+<div align = center><img height = 400 src = "../assets/ch2-12.png"></div>
 
 $$
-V_O = -(R_3+R_3/R_1)I_{B2}+R_2I_{B1}
+V_O = -I_{B2}R_3+R_2(I_{B1}-\frac{R_3}{R_1}I_{B2})
 $$
 
 Consider the case $I_{B1}=I_{B2}=I_B$, which results in
