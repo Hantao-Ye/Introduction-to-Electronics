@@ -10,7 +10,7 @@
 
 | Read In  |                                           PDF                                            |
 | :------: | :--------------------------------------------------------------------------------------: |
-| 下载地址 | [unfinished](https://github.com/Hantao-Ye/Introduction-to-Electronics) |
+| 下载地址 | [clcik me](https://raw.githubusercontent.com/Hantao-Ye/Introduction-to-Electronics/main/pdf-notes/overall.pdf) |
 
 如果遇到下载速度慢，使用以下方法(3选1)
 
