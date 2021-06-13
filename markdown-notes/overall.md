@@ -630,7 +630,6 @@ $$
 ### Voltage Doubler
 
 <div align = center><img height = 600 src = "../assets/ch3-15.png"></div>
-
 # Chapter 4 Bipolar Junction Transistors
 
 ## 4-1 Device Structure and Physical Operation
@@ -735,9 +734,7 @@ And the *pnp* transistor can operate in the saturation mode in a manner analogou
 
 #### Large-signal Model
 
-|             Model T             |           Model $\pi$            |
-| :-----------------------------: | :------------------------------: |
-| ![model-T](../assets/ch4-8.png) | ![model-pi](../assets/ch4-9.png) |
+<div align = center><img src = "../assets/ch4-8.png"></div>
 
 ## 4-2 Current-Voltage Characteristics
 
@@ -772,6 +769,11 @@ $$
 ## 4-3 BJT Circuits at DC
 
 <div align = center><img height = 600 src = "../assets/ch4-13.jpg"></div>
+
+## 4-4 Small Signal Analysis
+
+<div align = center><img height = 1300 src = "../assets/ch4-14.png"></div>
+
 
 # Chapter 5 MOS Field-Effect Transistors
 
@@ -891,3 +893,7 @@ The figure above show the circuit symbol for the p-channel MOSFET
 
 <div align = center><img height = 800 src = "../assets/ch5-9.png"></div>
 <div align = center><img height = 810 src = "../assets/ch5-11.png"></div>
+
+## 5-3 Small Signal Analysis
+
+<div align = center><img height = 872 src = "../assets/ch5-12.png"></div>

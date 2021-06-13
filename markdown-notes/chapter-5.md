@@ -116,3 +116,7 @@ The figure above show the circuit symbol for the p-channel MOSFET
 
 <div align = center><img height = 800 src = "../assets/ch5-9.png"></div>
 <div align = center><img height = 810 src = "../assets/ch5-11.png"></div>
+
+## 5-3 Small Signal Analysis
+
+<div align = center><img height = 872 src = "../assets/ch5-12.png"></div>

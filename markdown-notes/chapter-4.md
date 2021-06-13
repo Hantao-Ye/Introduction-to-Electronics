@@ -102,9 +102,7 @@ And the *pnp* transistor can operate in the saturation mode in a manner analogou
 
 #### Large-signal Model
 
-|             Model T             |           Model $\pi$            |
-| :-----------------------------: | :------------------------------: |
-| ![model-T](../assets/ch4-8.png) | ![model-pi](../assets/ch4-9.png) |
+<div align = center><img src = "../assets/ch4-8.png"></div>
 
 ## 4-2 Current-Voltage Characteristics
 
@@ -139,3 +137,7 @@ $$
 ## 4-3 BJT Circuits at DC
 
 <div align = center><img height = 600 src = "../assets/ch4-13.jpg"></div>
+
+## 4-4 Small Signal Analysis
+
+<div align = center><img height = 1300 src = "../assets/ch4-14.png"></div>
