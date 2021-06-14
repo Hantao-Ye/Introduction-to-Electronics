@@ -308,8 +308,8 @@ $$
 
 ### Realization of the Various Filter Types
 
-<div align = center><img height = 1300 src = "../assets/ch6-21.png"></div>
-<div align = center><img height = 440 src = "../assets/ch6-22.png"></div>
+<div align = center><img height = 900 src = "../assets/ch6-21.png"></div>
+<div align = center><img height = 300 src = "../assets/ch6-22.png"></div>
 
 ## 6-7 Second-Order Active Filters Based on the Two-Integrator-Loop Topology
 
