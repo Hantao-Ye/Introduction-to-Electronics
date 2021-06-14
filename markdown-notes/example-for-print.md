@@ -94,6 +94,47 @@ $$
 - $\omega_s$: the stopband edge
 - $A_{min}$: the minimum required stopband attenuation
 
+### Butterworth Filter
+
+<div align = center><img height = 450 src = "../assets/ch6-4.png"></div>
+
+$$
+\|T(j\omega)\| = \frac{1}{\sqrt{1+\epsilon^2\big(\frac{\omega}{\omega_p}\big)^2}}
+$$
+
+At the frequency of $\omega_p$
+
+$$
+\|T(j\omega)\| = \frac{1}{\sqrt{1+\epsilon^2}}
+$$
+
+Then the parameter $\epsilon$ determines $A_{max}$
+
+$$
+\begin{aligned}
+    A_{max} &= 10\log{(1+\epsilon^2)}\\[2ex]
+    \epsilon &= \sqrt{10^{A_{max}/10}-1}
+\end{aligned}
+$$
+
+At the edge of stopband $\omega=\omega_s$, check the attenuation of the filter
+
+$$
+A(\omega_s) = 10\log{\Big[1+\epsilon^2(\omega_s/\omega_p)^{2N}\Big]}
+$$
+
+Find the lowest filter order $N$ such that $A(\omega_s)>A_{min}$
+
+<div align = center><img height = 750 src = "../assets/ch6-5.png"></div>
+
+Then the transfer function could be written as
+
+$$
+T(s) = \frac{K\omega_0^N}{(s-p_1)(s-p_2)\cdots(s-p_N)}
+$$
+
+- $\omega_0=\omega_p(1/\epsilon)^{1/N}$
+
 ### First Order Filters
 
 The general first-order transfer function is given by
