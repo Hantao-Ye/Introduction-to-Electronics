@@ -211,6 +211,9 @@ $$
 
 The design of the circuit is usually selecting $R_1=R_2=R_3=R_5=R$ and $C_4=C$, which leads to $L = CR^2$
 
+<div align = center><img height = 900 src = "../assets/ch6-21.png"></div>
+<div align = center><img height = 300 src = "../assets/ch6-22.png"></div>
+
 ### KHN Biquad
 
 $$
@@ -255,4 +258,4 @@ $$
 - $C=\text{arbitrary}$
 - $R=1/\omega_0$
 
-<div align = center><img height = 950 src = "../assets/ch6-27.png"></div>
+<div align = center><img height = 850 src = "../assets/ch6-27.png"></div>
